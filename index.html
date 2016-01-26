@@ -1287,17 +1287,14 @@
 				<div class="clearfix visible-sm visible-xs">
 					<div class="col-md-12">
 						<p class="standard-logo text-center" data-dark-logo="images/horizontal_logo_dillworth.svg"><img src="images/horizontal_logo_dillworth.svg" id="DillsworthLogo" alt=""></p>
-							<div class="fancy-title text-center">
-								<h2>Tom Fisher, DDS</h2>
-							</div>
 							<div class="locationText text-center">
+								<p class= "nomargin" style="font-size: 24px !important"><strong>Tom Fisher, DDS<br>Arnold Ma, DDS</strong></p>
 								<p>1110 Harding Place<br>
 									Charlotte, NC 28204</p>
 									<p>New Patient Hotline:<br>
-									<b><a href="tel:+17042476499">7042476499</a></b></p>
+									<b><a href="tel:+17042476499">(704) 247-6499</a></b></p>
 									<p>Existing Patients Call:<br>
-									<a href="tel:+17043331859">(704) 333-1859</a></p>
-									<h2 class="fancy-title text-center"> Hours</h2>
+									<b><a href="tel:+17043331859">(704) 333-1859</a></b></p>
 									<p>
 									Monday:	8:00am - 5:00pm<br>
 									Tuesday: 8:00am - 5:00pm<br>
@@ -1307,7 +1304,7 @@
 									</p>
 									<a class="button button-3d" href="#" data-toggle="modal" data-target="#schedule-form">Request an Appointment</a>
 							</div>
-						</div>	
+						</div>
 					</div>
 			</div>
 
@@ -1319,22 +1316,18 @@
 				<!-- Contact Form Overlay
 				============================================= -->
 				<!-- Overlay for when map is in desktop version -->
-			<div class="container clearfix">	
+			<div class="container clearfix">
 				<div id="contact-form-overlay-mini" class="clearfix hidden-sm hidden-xs">
 
 				<p class="standard-logo" id="bottomLogo" data-dark-logo="images/horizontal_logo_dillworth.svg"><img src="images/horizontal_logo_dillworth.svg" alt=""></p>
-
-					<div class="fancy-title text-center">
-						<h2>Tom Fisher, DDS</h2>
-					</div>
 					<div class="locationText text-center">
-						<p class="text-center">1110 Harding Place
+						<p class= "nomargin" style="font-size: 24px !important"><strong>Tom Fisher, DDS<br>Arnold Ma, DDS</strong></p>
+						<p class="text-center">1110 Harding Place<br>
 						Charlotte, NC 28204</p>
 							<p>New Patient Hotline:<br>
 							<b><a href="tel:+17042476499">(704) 247-6499</a></b></p>
 							<p>Existing Patients Call:<br>
-							<a href="tel:+17043331859">(704) 333-1859</a></p>
-							<h2 class="fancy-title text-center"> Hours</h2>
+							<b><a href="tel:+17043331859">(704) 333-1859</a></b></p>
 							<p>
 							Monday:	8:00am - 5:00pm<br>
 							Tuesday: 8:00am - 5:00pm<br>
@@ -1343,7 +1336,7 @@
 							Friday: 7:00am - 12:00pm
 							</p>
 							<a class="button button-3d" href="#" data-toggle="modal" data-target="#schedule-form">Request an Appointment</a>
-					</div>		
+					</div>
 				</div><!-- Desktop Contact Form Overlay End -->
 			</div>
 
@@ -1380,7 +1373,8 @@
 						mapTypeControl: true,
 						scaleControl: false,
 						streetViewControl: false,
-						overviewMapControl: false
+						overviewMapControl: false,
+						draggable: false
 					}
 
 				});
@@ -1390,7 +1384,7 @@
 		</section>
 <!-- Footer
 		============================================= -->
-		<footer id="footer" class="dark">
+		<footer id="footer">
 
 			<!-- Copyrights
 			============================================= -->
@@ -1399,21 +1393,26 @@
 				<div class="container clearfix">
 
 					<div class="col-lg-12 col-md-12 col-sm-12 row tSteeleText text-center">
-						<a href="http://www.tysonsteele.com/" style="color: #fff;" target="_blank">Copyright &copy; 2015 All Rights Reserved by Tyson Steele Associates.
+
+						<p class="pb pt">
+						Copyright &copy;
+							<script>document.write(+new Date().getFullYear());</script>
+						All Rights Reserved by
+						<a href="http://www.tysonsteele.com/" target="_blank" style="color: #fff;">Tyson Steele Associates.
 						</a>
+						</p>
 					</div>
 
 					<div class="col-sm-12 col-md-12 col-lg-12 text-center row" style="padding-top: 15px;">
-						 <a href="https://www.facebook.com/Dilworth-Family-Dentistry-Charlotte-NC-153821541338639/" target="_blank" class="btn btn-block btn-social btn-facebook">
-					    <span class="fa fa-facebook fa-3x" style="color:#3B5998;"></span>
+						 <a href="https://www.facebook.com/Dilworth-Family-Dentistry-Charlotte-NC-153821541338639/" target="_blank">
+						<span class="fa-stack fa-2x" style="color:#3B5998;">
+						  <i class="fa fa-circle fa-stack-2x"></i>
+						  <i class="fa fa-facebook fa-stack-3x fa-inverse"></i>
+						</span>
 					  </a>
 					</div>
 
 			</div>
-
-
-
-
 
 		</footer><!-- #footer end -->
 
