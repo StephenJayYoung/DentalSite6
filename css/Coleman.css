@@ -523,6 +523,12 @@ section#members {
 	background-color: #e59400 !important;;
 }
 
+/** GALLERY OVERRIDES */
+section#gallery {
+	padding-bottom: 50px;
+}
+
+
 /** SERVICES OVERRIDES */
 section#services {
 	margin-top: 0;
