@@ -374,6 +374,7 @@ section#specials {
 section#tour {
 	margin-top: 0;
 	padding-top: 60px;
+	padding-bottom: 0px !important;
 	background-color: #e1e3e4 !important;
 }
 
@@ -631,13 +632,11 @@ section#links {
 
 /** CONTACT OVERRIDES */
 section#location {
-/*	margin-top: 70px;*/
 	margin-bottom: 0;
-/*	padding-top: 50px;*/
 	padding-bottom: 30px;
-	border-top: 1px solid #e8e8e8;
-	background-color: #fff;
+	background-color: #e1e3e4;
 	padding-bottom: 0px !important;
+	padding-top: 0px !important;
 }
 
 #ColemanLogo{
