@@ -3597,11 +3597,11 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-notitle .por
 body:not(.device-touch):not(.device-xs):not(.device-xxs) .bothsidebar .portfolio-3.portfolio-notitle .portfolio-item:hover .portfolio-image img,
 body:not(.device-touch):not(.device-xs):not(.device-xxs) .bothsidebar .portfolio-2.portfolio-notitle .portfolio-item:hover .portfolio-image img,
 body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-notitle .iportfolio:hover .portfolio-image img {
-	-webkit-transform: translateY(-20px);
+/*	-webkit-transform: translateY(-20px);
 	-moz-transform: translateY(-20px);
 	-ms-transform: translateY(-20px);
 	-o-transform: translateY(-20px);
-	transform: translateY(-20px);
+	transform: translateY(-20px);*/
 }
 
 body.device-touch.device-xs .portfolio-notitle .portfolio-desc,
