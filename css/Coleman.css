@@ -809,6 +809,13 @@ input, select, textarea {
 	background-color: #df6c4f !important;
 }
 
+.portfolio-overlay a.center-icon {
+    color: #df6c4f;
+}
+
+.portfolio-overlay a.center-icon:hover{
+    color: #e38d77;
+}
 
 #gotoTop:hover {
     background-color: #df6c4f !important;
