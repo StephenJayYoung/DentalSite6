@@ -11,7 +11,7 @@
 /** MENU OVERRIDES */
 
 #top-bar {
-    background-color: #6DBDD6;
+    background-color: #3c948b;
     border: .5px solid black;
     color: #FFF !important;
 }
@@ -71,7 +71,7 @@ background-color: #e38d77 !important;
 }
 
 #primary-menu > ul > li a:hover {
-	color: #f25334 !important;
+	color: #df6c4f  !important;
 }
 
 #header.full-header #primary-menu > ul {
@@ -81,26 +81,26 @@ background-color: #e38d77 !important;
 }
 
 #primary-menu > ul > li.current a {
-    color: #000000 !important;
+    color: #313131 !important;
     text-decoration: none !important;
 }
 
 #primary-menu > ul > li.current a:hover{
-    color: #F25305 !important;
+    color: #df6c4f  !important;
     text-decoration: none !important;
 }
 
 #primary-menu ul li a {
-    color: #000000;
+    color: #313131;
 }
 
 
 #primary-menu > ul > li.current a:hover{
-    color: #f25334 !important;
+    color: #df6c4f  !important;
 }
 
 #primary-menu > ul > li a:hover{
-    color: #f25334 !important;
+    color: #df6c4f !important;
 }
 
 
@@ -175,7 +175,7 @@ body{
 	padding: 15px 0 30px 0;
 	margin: 0 auto;
 	background-color: #fff;
-	color: #444 !important;
+	color: #313131 !important;
 }
 
 #calls-to-action .heading-block {
@@ -186,7 +186,7 @@ body{
 	font-size: 1.25em;
 	line-height: 1;
 	margin 0;
-	color: #444 !important;
+	color: #313131 !important;
 	font-family: "Lato", sans-serif;
 }
 
@@ -196,11 +196,11 @@ body{
 }
 
 #calls-to-action .heading-block h2 a {
-	color: #444 !important;
+	color: #313131 !important;
 }
 
 #calls-to-action .heading-block h2 a:hover, #calls-to-action .heading-block h2 a:active {
-	color: #444 !important;
+	color: #313131 !important;
 	text-decoration: none;
 }
 
@@ -249,7 +249,7 @@ section#team {
 }
 
 .owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
-	background-color: #000 !important;
+	background-color: #df6c4f !important;
 	color: #FFF !important;
 	text-decoration: none;
 }
@@ -277,7 +277,7 @@ section#specials {
 	color:;
 }
 .pricing-title {
-    background-color: #f25334;
+    background-color: #df6c4f;
 }
 
 .pricing-title h3 {
@@ -293,7 +293,7 @@ section#specials {
 }
 
 #professional-smile-whitening .pricing-title {
-	background-color: #f25334 !important;
+	background-color: #df6c4f !important;
 }
 
 #specials .heading-block span {
@@ -633,7 +633,7 @@ section#links {
 section#location {
 /*	margin-top: 70px;*/
 	margin-bottom: 0;
-	padding-top: 50px;
+/*	padding-top: 50px;*/
 	padding-bottom: 30px;
 	border-top: 1px solid #e8e8e8;
 	background-color: #fff;
@@ -812,5 +812,5 @@ input, select, textarea {
 
 
 #gotoTop:hover {
-    background-color: #e38d77 !important;
+    background-color: #df6c4f !important;
 }
