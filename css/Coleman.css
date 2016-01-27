@@ -29,7 +29,7 @@
 }
 
 h2 {
-    color: #000 !important;
+    color: #3c948b!important;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
 }
@@ -41,11 +41,11 @@ h2 {
 }
 
 .button:hover {
-    background-color: #e59400 !important;
+    background-color: #e38d77 !important;
 }
 
 .button.button-3d:hover{
-background-color: #e59400 !important;
+background-color: #e38d77 !important;
 }
 
 #header.full-header #logo {
@@ -106,8 +106,8 @@ background-color: #e59400 !important;
 
 
 body{
-	color: #000 !important;
-	background-color: #ffffff;
+	color: #313131 !important;
+	background-color: #f4f4f4 !important;
 }
 
 
@@ -163,7 +163,7 @@ body{
 #calls-to-action .button {
 	margin: 0 auto;
 	text-align: center;
-	background-color: #ee2737;
+	background-color: #df6c4f;
 	color: #ffffff;
 	margin: 5px 5px 15px 19px !important;
 	font-size: 15px;
@@ -174,8 +174,8 @@ body{
 #calls-to-action {
 	padding: 15px 0 30px 0;
 	margin: 0 auto;
-	background-color: #67BCDB;
-	color: #FFF !important;
+	background-color: #fff;
+	color: #444 !important;
 }
 
 #calls-to-action .heading-block {
@@ -186,7 +186,7 @@ body{
 	font-size: 1.25em;
 	line-height: 1;
 	margin 0;
-	color: #FFF !important;
+	color: #444 !important;
 	font-family: "Lato", sans-serif;
 }
 
@@ -196,13 +196,12 @@ body{
 }
 
 #calls-to-action .heading-block h2 a {
-	color: #FFF !important;
+	color: #444 !important;
 }
 
 #calls-to-action .heading-block h2 a:hover, #calls-to-action .heading-block h2 a:active {
-	color: #FFF !important;
+	color: #444 !important;
 	text-decoration: none;
-	font-family: "Lato", sans-serif;
 }
 
 #calls-to-action .heading-block.center:after {
@@ -213,17 +212,17 @@ body{
 #calls-to-action .button {
 	margin: 0 auto;
 	text-align: center;
-	background-color: #E44424 !important;
+	background-color: #df6c4f !important;
 	font-size: 13px;
 }
 
 #calls-to-action .button:hover{
-	background-color: #e59400 !important;
+	background-color: #e38d77 !important;
 }
 
 /** TEAM OVERRIDES */
 section#team {
-	background-color: #eee !important;
+	background-color: #e1e3e4 !important;
 	margin-top: 0;
 	padding-top: 60px;
 	padding-bottom: 30px;
@@ -375,7 +374,7 @@ section#specials {
 section#tour {
 	margin-top: 0;
 	padding-top: 60px;
-	background-color: #fff;
+	background-color: #e1e3e4 !important;
 }
 
 .portfolio-item {
@@ -406,7 +405,7 @@ section#reviews {
 	padding-top: 60px;
 	margin-bottom: 0;
 	padding-bottom: 30px;
-	background-color: #A2AB58 !important;
+	background-color: #e1e3e4 !important;
 }
 
 #customDots {
@@ -520,13 +519,15 @@ section#members {
 }
 
 .button.button-3d:not(.button-white):not(.button-dark):not(.button-border):not(.button-black):not(.button-red):not(.button-teal):not(.button-yellow):not(.button-green):not(.button-brown):not(.button-aqua):not(.button-purple):not(.button-leaf):not(.button-pink):not(.button-blue):not(.button-dirtygreen):not(.button-amber):not(.button-lime):hover {
-	background-color: #e59400 !important;;
+	background-color: #e38d77 !important;;
 }
 
 /** GALLERY OVERRIDES */
 section#gallery {
 	padding-bottom: 50px;
 	padding-top: 50px;
+	background-color: #444 !important;
+	color: #fff !important;
 }
 
 
@@ -536,7 +537,7 @@ section#services {
 	padding-top: 60px;
 	margin-bottom: 0;
 	padding-bottom: 30px;
-	background-color: #eee;
+	background-color: #3c948b;
 }
 
 .portfolio-desc h3 a:hover {
@@ -754,11 +755,12 @@ address {
 
 .tSteeleText{
 	font-size: 15px !important;
-	color: #77787b !important;
+	color: #fff !important;
 }
 
 #copyrights {
-  background-color: #6DBDD6 !important;
+  background-color: #444 !important;
+  color: #fff !important;
 }
 
 .social-icon i {
@@ -767,10 +769,10 @@ address {
     color: #ffffff;
 }
 
-#footer.dark, .dark #footer {
+/*#footer.dark, .dark #footer {
     background-color: #6DBDD6;
     color: #CCC;
-}
+}*/
 
 
 /*STYLE FOR POPUP MODAL*/
@@ -805,10 +807,10 @@ input, select, textarea {
 /*CUSTOM BUTTON COLOR*/
 
 .button{
-	background-color: #f25334 !important;
+	background-color: #df6c4f !important;
 }
 
 
 #gotoTop:hover {
-    background-color: #f25334 !important;
+    background-color: #e38d77 !important;
 }
