@@ -681,9 +681,8 @@
 							<h2>Gallery</h2>
 						</div>
 
-					<div id="portfolio" class="clearfix">
-
-
+					<!-- For large, small devices -->
+					<div id="portfolio" class="clearfix hidden-xs">
 						<article class="portfolio-item pf-uielements pf-icons">
 							<div class="portfolio-image">
 									<img src="images/Gallery/Kathy.png" alt="Video">
@@ -735,8 +734,63 @@
 								<h3>Rochelle's New Smile</h3>
 							</div>
 						</article>
+					</div><!-- #portfolio large, small end -->
 
-					</div><!-- #portfolio end -->
+
+					<!-- For xs devices (Youtube does not allow player in pop up, so making the video show up on a new page) -->
+					<div id="portfolio" class="clearfix visible-xs hidden-sm hidden-md hidden-lg">
+						<article class="portfolio-item pf-uielements pf-icons">
+							<div class="portfolio-image">
+									<img src="images/Gallery/Kathy.png" alt="Video">
+								<a href="http://www.youtube.com/watch?v=5VAMGASVBck" target="_blank">
+								<div class="portfolio-overlay">
+								</div>
+								</a>
+							</div>
+							<div class="portfolio-desc">
+								<h3>Kathy's New Smile</h3>
+							</div>
+						</article>
+
+						<article class="portfolio-item pf-uielements pf-icons">
+							<div class="portfolio-image">
+									<img src="images/Gallery/Bob.png" alt="Video">
+								<a href="http://www.youtube.com/watch?v=BCMLKcoiKdo" target="_blank">
+								<div class="portfolio-overlay">
+								</div>
+								</a>
+							</div>
+							<div class="portfolio-desc">
+								<h3>Bob's New Smile</h3>
+							</div>
+						</article>
+
+						<article class="portfolio-item pf-uielements pf-icons">
+							<div class="portfolio-image">
+									<img src="images/Gallery/Diane.png" alt="Video">
+								<a href="http://www.youtube.com/watch?v=DVw0t1PZJrs" target="_blank">
+								<div class="portfolio-overlay">
+								</div>
+								</a>
+							</div>
+							<div class="portfolio-desc">
+								<h3>Diane's New Smile</h3>
+							</div>
+						</article>
+
+						<article class="portfolio-item pf-uielements pf-icons">
+							<div class="portfolio-image">
+									<img src="images/Gallery/Rochelle.png" alt="Video">
+								<a href="http://www.youtube.com/watch?v=ls0ccx0OWsc" target="_blank">
+								<div class="portfolio-overlay">
+								</div>
+								</a>
+							</div>
+							<div class="portfolio-desc">
+								<h3>Rochelle's New Smile</h3>
+							</div>
+						</article>
+					</div><!-- #portfolio end xs devices -->
 
 					<!-- Portfolio Script
 					============================================= -->
