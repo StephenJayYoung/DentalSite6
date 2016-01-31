@@ -17,9 +17,16 @@
 }
 
 
+
+#logo {
+    margin-right: 10px;
+}
+
 #logo img {
+    height: 70px;
+    margin: 15px 0;
     padding-top: 2px;
-    padding-bottom: 2px;
+		padding-bottom: 2px;
 }
 
 @media (max-width: 991px) {
@@ -384,7 +391,7 @@ section#specials {
 section#tour {
 	margin-top: 0;
 	padding-top: 60px;
-	padding-bottom: 0px !important;
+	padding-bottom: 75px !important;
 	background-color: #e1e3e4 !important;
 }
 
@@ -555,6 +562,10 @@ section#services {
     color: #444 !important;
 }
 
+.modal-body{
+	font-size: 15px;
+}
+
 @media (max-width: 480px) {
 
 .modal-title {
@@ -565,14 +576,11 @@ section#services {
     font-size: 90px;
     line-height: .24;
     color: #e1e3e4 !important;
-/*    border-style: solid !important;
-    border-color: #000000 !important;*/
     margin: 5px !important;
     padding-top: 5px !important;
     padding-bottom: 22px !important;
     margin-bottom: 15px;
     border-width: 1.3px !important;
-/*    background-color: #e1e3e4 !important;*/
     opacity: .99 !important;
 	}
 }
