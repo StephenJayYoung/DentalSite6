@@ -617,6 +617,43 @@ section#services {
 	display: inline;
 }
 
+/*Patient Forms*/
+#careCredit {
+	padding-top: 10px;
+	padding-bottom: 50px !important;
+}
+
+#payText {
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+#patientForms{
+	padding-top: 10px;
+	padding-bottom: 2px;
+}
+
+.resourcesBox{
+    width: 375px;
+    height: 250px;
+    padding: 25px;
+    border: 1px solid gray;
+    border-radius: 3px;
+	  background-color: white;
+		color: #77787b !important;
+}
+
+@media (max-width: 480px) {
+	.resourcesBox{
+    width: 250px;
+    height: 300px;
+    padding: 25px;
+    border: 1px solid gray;
+    border-radius: 3px;
+	  background-color: white;
+		color: #77787b !important;
+}
+}
 
 /*Tour Overrides*/
 .owl-theme .owl-dots .owl-dot span {
