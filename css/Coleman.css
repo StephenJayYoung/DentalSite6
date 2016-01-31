@@ -16,8 +16,6 @@
     color: #FFF !important;
 }
 
-
-
 #logo {
     margin-right: 10px;
 }
@@ -672,6 +670,19 @@ section#location {
 	border-radius: 4px;
 	box-shadow: 0 1px 10px rgba(0,0,0,0.15);
 }
+.hotline {
+	font-size: 25px;
+	color: #df6c4f !important;
+}
+
+
+@media (max-width: 480px) {
+	.open-text{
+		font-size: 12px;
+	}
+}
+
+
 
 #contact-form-overlay-mobile img{
 max-height: 100px;
