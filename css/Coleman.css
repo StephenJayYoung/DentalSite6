@@ -557,18 +557,22 @@ section#services {
 
 @media (max-width: 480px) {
 
+.modal-title {
+    font-size: 22px !important;
+}
+
 .close {
     font-size: 90px;
-    line-height: .2;
+    line-height: .24;
     color: #ffffff !important;
     border-style: solid !important;
     border-color: #000000 !important;
     margin: 5px !important;
-    padding-top: 10px !important;
-    padding-bottom: 20px !important;
-    margin-bottom: 10px;
+    padding-top: 5px !important;
+    padding-bottom: 22px !important;
+    margin-bottom: 15px;
     border-width: 1.3px !important;
-    background-color: #e38d77 !important;
+    background-color: #e1e3e4 !important;
     opacity: .99 !important;
 	}
 }
