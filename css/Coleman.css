@@ -233,7 +233,17 @@ section#team {
 }
 
 .team-content{
-	font-size: 19px;
+	font-size: 16px;
+}
+
+.owl-theme .owl-controls .owl-nav [class*=owl-] {
+   opacity: 1;
+   left: -18px;
+}
+
+.owl-theme .owl-controls .owl-nav .owl-next {
+   left: auto;
+   right: -18px;
 }
 
 @media (max-width: 480px) {
