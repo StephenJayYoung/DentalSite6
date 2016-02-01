@@ -33,6 +33,21 @@
 	}
 }
 
+@media (max-width: 991px) {
+    #header.responsive-sticky-header {
+        height: 100px;
+    }
+    .responsive-sticky-header #logo {
+        height: 100px;
+    }
+    .responsive-sticky-header #logo img {
+        height: 70px;
+    }
+    .responsive-sticky-header #primary-menu-trigger {
+        top: 25px;
+    }
+}
+
 h2 {
     color: #3c948b;
     font-family: 'Raleway', sans-serif;
