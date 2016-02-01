@@ -124,7 +124,7 @@
 
 					<!-- Primary Navigation
 					============================================= -->
-					<nav id="primary-menu">
+					<nav id="primary-menu" class="static-sticky">
 
 						<ul>
 							<li class="current"><a href="#home"><div>Home</div></a>
@@ -433,13 +433,13 @@
 
 							<!-- Team Bio -->
 							<div class="oc-item">
-								<div class="team team-list clearfix">
-									<div class="team-image">
-										<img src="optimized_contents/image/optimizilla/team-photo-min.jpg" alt="The Team">
+								<div class="clearfix">
+									<div class="col-lg-6 col-md-6 col-sm-12">
+										<img class="team-responsive" src="optimized_contents/image/optimizilla/team-photo-min.jpg" alt="The Team">
 									</div>
-									<div class="team-desc">
+									<div class="team-desc col-md-6 col-lg-6 col-sm-12">
 										<div class="team-title"><h4>The Team</h4></div>
-										<div class="team-content">
+										<div class="team-content" style="text-align: left">
 											<p>We enjoy working together and sharing our lives with our "family". Some of our team have been with us since day one and they are indeed like "family". We invite you to join us and experience excellent care from our "family" to yours.</p>
 										</div>
 									</div>
@@ -685,7 +685,7 @@
 							<h2 style="color: #fff">Gallery</h2>
 						</div>
 
-					<div id="portfolio" class="clearfix hidden-xs">
+					<div id="portfolio" class="clearfix hidden-xs hidden-sm center-block">
 						<article class="portfolio-item">
 							<div class="portfolio-image">
 									<img src="images/Gallery/Kathy.png" alt="Kathy's New Smile">
@@ -739,6 +739,60 @@
 						</article>
 					</div><!-- #portfolio end -->
 
+					<!-- For sm devices (so that it shows 2 columns in sm responsive view, not 3 up and 1 down) -->
+					<div class="clearfix hidden-xs visible-sm">
+						<article class="portfolio-item">
+							<div class="portfolio-image">
+									<img src="images/Gallery/Kathy.png" alt="Kathy's New Smile">
+								<a href="http://www.youtube.com/watch?v=5VAMGASVBck" data-lightbox="iframe">
+								<div class="portfolio-overlay">
+								</div>
+								</a>
+							</div>
+							<div class="portfolio-desc">
+								<h3>Kathy's New Smile</h3>
+							</div>
+						</article>
+
+						<article class="portfolio-item">
+							<div class="portfolio-image">
+									<img src="images/Gallery/Bob.png" alt="Bob's New Smile">
+								<a href="http://www.youtube.com/watch?v=BCMLKcoiKdo" data-lightbox="iframe">
+								<div class="portfolio-overlay">
+								</div>
+								</a>
+							</div>
+							<div class="portfolio-desc">
+								<h3>Bob's New Smile</h3>
+							</div>
+						</article>
+
+						<article class="portfolio-item">
+							<div class="portfolio-image">
+									<img src="images/Gallery/Diane.png" alt="Diane's New Smile">
+								<a href="http://www.youtube.com/watch?v=DVw0t1PZJrs" data-lightbox="iframe">
+								<div class="portfolio-overlay">
+								</div>
+								</a>
+							</div>
+							<div class="portfolio-desc">
+								<h3>Diane's New Smile</h3>
+							</div>
+						</article>
+
+						<article class="portfolio-item">
+							<div class="portfolio-image">
+									<img src="images/Gallery/Rochelle.png" alt="Rochelle's New Smile">
+								<a href="http://www.youtube.com/watch?v=ls0ccx0OWsc" data-lightbox="iframe">
+								<div class="portfolio-overlay">
+								</div>
+								</a>
+							</div>
+							<div class="portfolio-desc">
+								<h3>Rochelle's New Smile</h3>
+							</div>
+						</article>
+					</div><!-- #portfolio end -->
 
 					<!-- For xs devices (Youtube does not allow player in pop up, so making the video show up on a new page) -->
 					<div id="portfolio" class="clearfix visible-xs hidden-sm hidden-md hidden-lg">
@@ -1224,7 +1278,7 @@
 									<div class="heading-block nobottomborder" style="margin-bottom: 15px;">
 										<h4 id="payText">New Patient Forms</h4>
 									</div>
-									<a href="https://www.patientpaycenter.com" class="button button-3d"  data-toggle="modal" target= "_blank">View Forms Here</a>
+									<a href="#" class="button button-3d"  data-toggle="modal" target= "_blank">View Forms Here</a>
 								</div>
 
 								<div class="col-lg-4 bottommargin resourcesBox center-block">
@@ -1232,7 +1286,7 @@
 									<div class="heading-block nobottomborder" style="margin-bottom: 15px;">
 										<h4 id="careCredit">Privacy Policy</h4>
 									</div>
-									<a href="https://www.carecredit.com/apply/confirm.html?encm=AGEFPAFjBWBWalczATUMZQY8VDELZVlsBmZQaFA9BjA" class="button button-3d" data-toggle="modal" target="_blank">View Policy Here</a>
+									<a href="#" class="button button-3d" data-toggle="modal" target="_blank">View Policy Here</a>
 								</div>
 
 								<div class="col-lg-4 bottommargin resourcesBox center-block">
@@ -1240,8 +1294,8 @@
 									<div class="heading-block nobottomborder" style="margin-bottom: 15px;">
 										<h4 id="patientForms">Other Forms</h4>
 									</div>
-									<a href="http://www.allinfamilydentistry.com/forms/index.html" class="button button-3d" data-toggle="modal" target="_blank">Smile Evaluation</a>
-									<a href="http://www.allinfamilydentistry.com/forms/index.html" class="button button-3d" data-toggle="modal" target="_blank">Handle Me With Care</a>
+									<a href="http://www.allinfamilydentistry.com/forms/index.html" class="button button-3d" data-toggle="modal" style="padding-left: 52px; padding-right: 52px" target="_blank">Smile Evaluation</a>
+									<a href="http://www.allinfamilydentistry.com/forms/index.html" class="button button-3d" data-toggle="modal" style="padding-left: 36px; padding-right: 36px" target="_blank">Handle Me With Care</a>
 									<a href="http://www.allinfamilydentistry.com/forms/index.html" class="button button-3d" data-toggle="modal" target="_blank">Carries Risk Assessment</a>
 								</div>
 							</div>
@@ -1386,6 +1440,7 @@
 							autoplayHoverPause: true,
 							dots: false,
 							loop: false,
+							touchDrag: false,
 							responsive:{
 								0:{ items:1 },
 								600:{ items:2 },

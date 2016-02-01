@@ -38,7 +38,13 @@
 	}
 }
 
-@media (max-width: 991px) {
+
+/*@media (max-width: 991px)
+#header, #header-wrap, #header.sticky-style-2, #header.sticky-style-3, #header.sticky-style-2 #header-wrap, #header.sticky-style-3 #header-wrap {
+    height: 90px;
+}*/
+
+/*@media (max-width: 991px) {
     #header.responsive-sticky-header {
         height: 100px;
     }
@@ -51,7 +57,7 @@
     .responsive-sticky-header #primary-menu-trigger {
         top: 25px;
     }
-}
+}*/
 
 h2 {
     color: #3c948b;
