@@ -28,6 +28,28 @@
 		padding-bottom: 2px;
 }
 
+@media(min-width: 991px){
+	#header .container {
+	    position: absolute;
+	}
+}
+
+/*.sticky-responsive-menu #header-wrap {
+   position: absolute;
+}
+
+@media (max-width: 991px) {
+	.sticky-responsive-menu #header-wrap {
+    -webkit-transform: translate3d(0,0,0);
+    text-align: center !important;
+	}
+
+		#header-wrap {
+    text-align: center !important;
+	}
+
+}*/
+
 #header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
     line-height: 95px;
 }
@@ -237,7 +259,7 @@ section#team {
 	padding-bottom: 30px;
 }
 
-section#team.oc-item { box-sizing: border-box; }
+section#team .oc-item { box-sizing: border-box; }
 
 .team-title h4{
     font-size: 23px;
