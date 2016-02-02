@@ -237,6 +237,8 @@ section#team {
 	padding-bottom: 30px;
 }
 
+section#team.oc-item { box-sizing: border-box; }
+
 .team-title h4{
     font-size: 23px;
 }
