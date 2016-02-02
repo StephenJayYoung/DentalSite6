@@ -629,13 +629,13 @@ section#services {
 	padding-top: 50px;
 }
 
-@media (min-width: 768px) {
-	#forms .col-sm-4 {
-	    width: 32%;
+@media (min-width: 991px) {
+	#forms .col-lg-4 {
+	    width: 31%;
 	    margin-right: 2%;
-	}	
+	}
 
-	#forms .col-sm-4:last-child {
+	#forms .col-sm-12:last-child {
 		margin-right: 0;
 	}
 }
