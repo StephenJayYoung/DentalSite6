@@ -1272,34 +1272,6 @@
 					</div>
 				</div><!-- .portfolio-carousel end -->
 
-				<script type="text/javascript">
-
-					jQuery(document).ready(function($) {
-
-						var relatedPortfolio = $("#related-portfolio");
-
-						relatedPortfolio.owlCarousel({
-							margin: 0,
-							nav: true,
-							navText: ['<i class="icon-angle-left"></i>','<i class="icon-angle-right"></i>'],
-							autoplay: false,
-							autoplayHoverPause: true,
-							dots: false,
-							loop: false,
-							touchDrag: false,
-							responsive:{
-								0:{ items:1 },
-								600:{ items:2 },
-								1000:{ items:3 },
-								1200:{ items:4 },
-								1400:{ items:5 }
-							}
-						});
-
-					});
-
-				</script>
-
 			</div>
 
 		</section>
@@ -1640,22 +1612,6 @@
 							});
 						</script>
 
-			<!-- Second Script for Team Carousel -->
-						<script>
-							jQuery(document).ready(function($) {
-								var ocSlider = $("#oc-group-list");
-
-								ocSlider.owlCarousel({
-									items: 1,
-									nav: true,
-									navText : ['<i class="icon-angle-left"></i>','<i class="icon-angle-right"></i>'],
-									dots: false,
-									loop: true,
-									touchDrag: false
-								});
-							});
-						</script>
-
                     <!-- Gallery Script
                     ============================================= -->
                     <script type="text/javascript">
@@ -1687,6 +1643,35 @@
                         });
 
                     </script><!-- Gallery Script End -->
+
+                                <!-- Script for Tour -->
+                <script type="text/javascript">
+
+                    jQuery(document).ready(function($) {
+
+                        var relatedPortfolio = $("#related-portfolio");
+
+                        relatedPortfolio.owlCarousel({
+                            margin: 0,
+                            nav: true,
+                            navText: ['<i class="icon-angle-left"></i>','<i class="icon-angle-right"></i>'],
+                            autoplay: false,
+                            autoplayHoverPause: true,
+                            dots: false,
+                            loop: false,
+                            touchDrag: false,
+                            responsive:{
+                                0:{ items:1 },
+                                600:{ items:2 },
+                                1000:{ items:3 },
+                                1200:{ items:4 },
+                                1400:{ items:5 }
+                            }
+                        });
+
+                    });
+
+                </script>
 
 
 
