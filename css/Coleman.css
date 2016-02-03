@@ -134,11 +134,6 @@ background-color: #e38d77 !important;
     text-decoration: none !important;
 }
 
-#primary-menu > ul > li.current a:hover{
-    color: #df6c4f  !important;
-    text-decoration: none !important;
-}
-
 #primary-menu ul li a {
     color: #313131;
 }
@@ -176,7 +171,7 @@ body{
 	body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > ul > li:hover a, body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > ul > li.current a, body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > div > ul > li:hover a, body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > div > ul > li.current a {
     color: #f25334 !important;
 	}
-}	
+}
 
 /** ACTIONS OVERRIDES */
 
@@ -410,7 +405,7 @@ section#specials {
 	#specials .col-sm-4 {
 	    width: 32%;
 	    margin-right: 2%;
-	}	
+	}
 
 	#specials .col-sm-4:last-child {
 		margin-right: 0;
@@ -424,36 +419,6 @@ section#specials {
 	}
 }
 
-/** TOUR OVERRIDES */
-section#tour {
-	margin-top: 0;
-	padding-top: 60px;
-	padding-bottom: 75px !important;
-	background-color: #e1e3e4 !important;
-}
-
-.portfolio-item {
-box-sizing: border-box;
-	padding: .6em;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  background-color: #ffffff;
-}
-
-.portfolio-item .portfolio-image, .portfolio-item .portfolio-image a, .portfolio-item .portfolio-image img {
-	box-sizing: border-box;
-	width: 100% !important;
-	max-width: 100%;
-	height: auto !important;
-	display: block;
-}
-
-.portfolio-desc {
-	margin: 8px 0 0 0;
-	padding: 2px;
-	text-align: center;
-}
-
 /** REVIEWS OVERRIDES */
 section#reviews {
 	margin-top: 50px;
@@ -463,32 +428,10 @@ section#reviews {
 	background-color: #e1e3e4 !important;
 }
 
-#customDots {
-    padding: 12px;
-    margin-bottom: 12px;
-}
-
-.testi-content p {
-	font-family: "Lato", sans-serif;
-	font-style: normal;
-	font-weight: 300;
-}
-
-.testi-content .stars {
-	font-size: 2em;
-}
-
-@media (max-width: 768px) {
-	section#reviews {
-/*		padding-top: 10px;*/
-		padding-bottom: 10px;
-		background-image: none;
-		background-size: cover;
-	}
-}
 
 /** MEMBERS OVERRIDES */
-section#members {
+/*Take this out for production if members section not used*/
+/*section#members {
 	margin-top: 0px;
 	padding-top: 60px;
 	margin-bottom: 0;
@@ -575,7 +518,7 @@ section#members {
 
 .button.button-3d:not(.button-white):not(.button-dark):not(.button-border):not(.button-black):not(.button-red):not(.button-teal):not(.button-yellow):not(.button-green):not(.button-brown):not(.button-aqua):not(.button-purple):not(.button-leaf):not(.button-pink):not(.button-blue):not(.button-dirtygreen):not(.button-amber):not(.button-lime):hover {
 	background-color: #e38d77 !important;;
-}
+}*/
 
 /** GALLERY OVERRIDES */
 section#gallery {
@@ -607,62 +550,6 @@ section#services {
     color: #444 !important;
 }
 
-.modal-body{
-	font-size: 15px;
-}
-
-@media (max-width: 480px) {
-
-.modal-title {
-    font-size: 22px !important;
-}
-
-.close {
-    font-size: 90px;
-    line-height: .24;
-    color: #e1e3e4 !important;
-    margin: 5px !important;
-    padding-top: 5px !important;
-    padding-bottom: 22px !important;
-    margin-bottom: 15px;
-    border-width: 1.3px !important;
-    opacity: .99 !important;
-	}
-}
-	.modal-header {
-  border-bottom: none !important; 
-}
-
-.modal-title {
-    font-size: 19px !important;
-	}
-}
-
-.modal-body a {
-	float: right;
-	margin: 0 0 1em 1em;
-	width: 50%;
-	max-width: 240px;
-	display: block;
-	text-align: center;
-	font-weight: bold;
-	color: inherit;
-}
-
-.modal-body a img {
-	width: 100%;
-	max-width: 100%;
-	height: auto;
-	display: block;
-}
-
-.modal-body p a {
-	margin: 0;
-	text-align: inherit;
-	float: none;
-	width: auto;
-	display: inline;
-}
 
 /*Patient Forms*/
 
@@ -748,36 +635,34 @@ section#services {
 }
 }
 
-/*Tour Overrides*/
-.owl-theme .owl-dots .owl-dot span {
-	background-color: #000 ;
-}
-
-/** LINKS **/
-section#links {
+/** TOUR OVERRIDES */
+section#tour {
 	margin-top: 0;
-	padding-top: 30px;
-	margin-bottom: 0;
-	padding-bottom: 30px;
-	background-color: #F5FAEF;
-	border-top: 1px solid #e8e8e8;
+	padding-top: 60px;
+	padding-bottom: 75px !important;
+	background-color: #e1e3e4 !important;
 }
 
-#links ul {
-    list-style: none;
-    padding: 0;
-    margin: 0 0 5px 0;
+.portfolio-item {
+box-sizing: border-box;
+	padding: .6em;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #ffffff;
 }
 
-#links li a {
-    color: #252a2e;
-    background: url(../images/icons/widget-link.png) 0% 50% no-repeat;
-    padding-left: 8px;
-    font-size: 1.1em;
+.portfolio-item .portfolio-image, .portfolio-item .portfolio-image a, .portfolio-item .portfolio-image img {
+	box-sizing: border-box;
+	width: 100% !important;
+	max-width: 100%;
+	height: auto !important;
+	display: block;
 }
 
-#links li a:hover {
-	text-decoration: underline !important;
+.portfolio-desc {
+	margin: 8px 0 0 0;
+	padding: 2px;
+	text-align: center;
 }
 
 /** CONTACT OVERRIDES */
@@ -811,8 +696,6 @@ section#location {
 		font-size: 12px;
 	}
 }
-
-
 
 #contact-form-overlay-mobile img{
 max-height: 100px;
@@ -908,6 +791,65 @@ address {
 	#location address {
 		text-align: center;
 	}
+}
+
+
+/*MODAL OVERRIDES*/
+.modal-body{
+	font-size: 15px;
+}
+
+@media (max-width: 480px) {
+
+.modal-title {
+    font-size: 22px !important;
+}
+
+.close {
+    font-size: 90px;
+    line-height: .24;
+    color: #e1e3e4 !important;
+    margin: 5px !important;
+    padding-top: 5px !important;
+    padding-bottom: 22px !important;
+    margin-bottom: 15px;
+    border-width: 1.3px !important;
+    opacity: .99 !important;
+	}
+}
+	.modal-header {
+  border-bottom: none !important; 
+}
+
+.modal-title {
+    font-size: 19px !important;
+	}
+}
+
+.modal-body a {
+	float: right;
+	margin: 0 0 1em 1em;
+	width: 50%;
+	max-width: 240px;
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	color: inherit;
+}
+
+.modal-body a img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+.modal-body p a {
+	margin: 0;
+	text-align: inherit;
+	float: none;
+	width: auto;
+	display: inline;
 }
 
 /*FOOTER OVERRIDES*/
