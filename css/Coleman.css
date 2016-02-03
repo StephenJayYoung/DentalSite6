@@ -562,6 +562,26 @@ section#services {
 	color: #fff !important;
 }
 
+.forms-padding{
+	padding-top: 75px;
+	padding-bottom: 75px
+}
+
+.forms-padding-two{
+	padding-top: 25px;
+	padding-bottom: 25px
+}
+
+.forms-bn-one{
+	padding-left: 52px !important;
+	padding-right: 52px !important;
+}
+
+forms-bn-two{
+	padding-left: 36px !important;
+	padding-right: 36px !important;
+}
+
 @media (min-width: 991px) {
 	#forms .col-lg-4 {
 	    width: 31%;
