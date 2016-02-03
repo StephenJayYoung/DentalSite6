@@ -520,6 +520,10 @@ section#gallery {
     margin: 0 12px 12px 0;
 }
 
+.gallery-ipad-titles{
+	font-size: 25px !important;
+}
+
 /** SERVICES OVERRIDES */
 section#services {
 	margin-top: 0;

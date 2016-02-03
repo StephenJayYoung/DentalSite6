@@ -283,98 +283,6 @@
                         </ul>
                     </div>
                 </div>
-
-                <script>
-                // setup revolution slider
-                $('.tp-banner').show().revolution({
-                    sliderType: "standard",
-                    jsFileLocation: "assets/include/rs-plugin/js/",
-                    sliderLayout: "fullwidth",
-                    dottedOverlay: "none",
-                    delay: 6000,
-                    startwidth: 2000,
-                    startheight: 650,
-                    hideThumbs: 200,
-                    thumbWidth: 100,
-                    thumbHeight: 50,
-                    thumbAmount: 5,
-                    fullScreenAlignForce: "on",
-                    navigation: {
-                        keyboardNavigation: "off",
-                        keyboard_direction: "horizontal",
-                        mouseScrollNavigation: "off",
-                        onHoverStop: "off",
-                        touch:{
-                            touchenabled: "on",
-                            swipe_threshold: 75,
-                            swipe_min_touches: 1,
-                            swipe_direction: "horizontal",
-                            drag_block_vertical: false
-                        },
-                        arrows: {
-                            style: "hermes",
-                            enable: false,
-                            hide_onmobile: true,
-                            hide_onleave: true,
-                            tmp: '<div class="tp-arr-allwrapper">   <div class="tp-arr-imgholder"></div>    <div class="tp-arr-titleholder">{{title}}</div> </div>',
-                            left: {
-                                h_align: "left",
-                                v_align: "center",
-                                h_offset: 10,
-                                v_offset: 0
-                            },
-                            right: {
-                                h_align: "right",
-                                v_align: "center",
-                                h_offset: 10,
-                                v_offset: 0
-                            }
-                        }
-                    },
-                    touchenabled: "on",
-                    onHoverStop: "on",
-                    swipe_velocity: 0.7,
-                    swipe_min_touches: 1,
-                    swipe_max_touches: 1,
-                    drag_block_vertical: false,
-                    parallax: "mouse",
-                    parallaxBgFreeze: "on",
-                    parallaxLevels: [7,4,3,2,5,4,3,2,1,0],
-                    keyboardNavigation: "off",
-                    navigationHAlign: "center",
-                    navigationVAlign: "bottom",
-                    navigationHOffset: 0,
-                    navigationVOffset: 20,
-                    soloArrowLeftHalign: "left",
-                    soloArrowLeftValign: "center",
-                    soloArrowLeftHOffset: 20,
-                    soloArrowLeftVOffset: 0,
-                    soloArrowRightHalign: "right",
-                    soloArrowRightValign: "center",
-                    soloArrowRightHOffset: 20,
-                    soloArrowRightVOffset: 0,
-                    shadow: 0,
-                    fullWidth: "on",
-                    fullScreen: "off",
-                    spinner: "spinner4",
-                    stopLoop: "off",
-                    stopAfterLoops: -1,
-                    stopAtSlide: -1,
-                    shuffle: "off",
-                    autoHeight: "off",
-                    forceFullWidth: "on",
-                    hideTimerBar: "on",
-                    hideThumbsOnMobile: "on",
-                    hideNavDelayOnMobile: 1500,
-                    hideBulletsOnMobile: "on",
-                    hideArrowsOnMobile: "on",
-                    hideThumbsUnderResolution: 0,
-                    hideSliderAtLimit: 0,
-                    hideCaptionAtLimit: 0,
-                    hideAllCaptionAtLilmit: 0,
-                    startWithSlide: 0,
-                });
-		</script>
             </section>
 
 
@@ -618,7 +526,6 @@
 							<script type="text/javascript"> (function(w, d){w._rab_review_q = w._rab_review_q || []; w._rab_review_q.push({id: "6fe989e440ef37a4f2a721e3c82d230c",reviewDivId: "review-widget-container", template: "dark"}); var el = d.createElement("script"); el.async=true; el.src="http://s3.amazonaws.com/cdn.rateabiz.com/reviews/loader.js"; el.type="text/javascript"; var s0 = d.getElementsByTagName("script")[0]; s0.parentNode.insertBefore(el, s0);})(window, document);</script>
 
 						<div style="width:100%;" id="review-widget-container"></div>
-
 				</div>
 				<br />
 				</section>
@@ -731,7 +638,7 @@
 
 					<!-- For sm devices (so that it shows 2 columns in sm responsive view, not 3 up and 1 down) -->
 					<div class="hidden-xs visible-sm">
-						
+
 						<article class="portfolio-medium">
 							<div class="portfolio-image">
 									<img src="images/Gallery/Kathy.png" alt="Kathy's New Smile">
@@ -741,7 +648,7 @@
 								</a>
 							</div>
 							<div class="portfolio-desc">
-								<h3 style="font-size: 25px !important">Kathy's New Smile</h3>
+								<h3 class="gallery-ipad-titles">Kathy's New Smile</h3>
 							</div>
 						</article>
 
@@ -754,7 +661,7 @@
 								</a>
 							</div>
 							<div class="portfolio-desc">
-								<h3 style="font-size: 25px !important">Bob's New Smile</h3>
+								<h3 class="gallery-ipad-titles">Bob's New Smile</h3>
 							</div>
 						</article>
 
@@ -767,7 +674,7 @@
 								</a>
 							</div>
 							<div class="portfolio-desc">
-								<h3 style="font-size: 25px !important">Diane's New Smile</h3>
+								<h3 class="gallery-ipad-titles">Diane's New Smile</h3>
 							</div>
 						</article>
 
@@ -780,7 +687,7 @@
 								</a>
 							</div>
 							<div class="portfolio-desc">
-								<h3 style="font-size: 25px !important">Rochelle's New Smile</h3>
+								<h3 class="gallery-ipad-titles">Rochelle's New Smile</h3>
 							</div>
 						</article>
 					</div><!-- #portfolio end -->
@@ -1658,6 +1565,98 @@
 
 	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
 
+<!-- Script for Revolution Slider -->
+                <script>
+                // setup revolution slider
+                $('.tp-banner').show().revolution({
+                    sliderType: "standard",
+                    jsFileLocation: "assets/include/rs-plugin/js/",
+                    sliderLayout: "fullwidth",
+                    dottedOverlay: "none",
+                    delay: 6000,
+                    startwidth: 2000,
+                    startheight: 650,
+                    hideThumbs: 200,
+                    thumbWidth: 100,
+                    thumbHeight: 50,
+                    thumbAmount: 5,
+                    fullScreenAlignForce: "on",
+                    navigation: {
+                        keyboardNavigation: "off",
+                        keyboard_direction: "horizontal",
+                        mouseScrollNavigation: "off",
+                        onHoverStop: "off",
+                        touch:{
+                            touchenabled: "on",
+                            swipe_threshold: 75,
+                            swipe_min_touches: 1,
+                            swipe_direction: "horizontal",
+                            drag_block_vertical: false
+                        },
+                        arrows: {
+                            style: "hermes",
+                            enable: false,
+                            hide_onmobile: true,
+                            hide_onleave: true,
+                            tmp: '<div class="tp-arr-allwrapper">   <div class="tp-arr-imgholder"></div>    <div class="tp-arr-titleholder">{{title}}</div> </div>',
+                            left: {
+                                h_align: "left",
+                                v_align: "center",
+                                h_offset: 10,
+                                v_offset: 0
+                            },
+                            right: {
+                                h_align: "right",
+                                v_align: "center",
+                                h_offset: 10,
+                                v_offset: 0
+                            }
+                        }
+                    },
+                    touchenabled: "on",
+                    onHoverStop: "on",
+                    swipe_velocity: 0.7,
+                    swipe_min_touches: 1,
+                    swipe_max_touches: 1,
+                    drag_block_vertical: false,
+                    parallax: "mouse",
+                    parallaxBgFreeze: "on",
+                    parallaxLevels: [7,4,3,2,5,4,3,2,1,0],
+                    keyboardNavigation: "off",
+                    navigationHAlign: "center",
+                    navigationVAlign: "bottom",
+                    navigationHOffset: 0,
+                    navigationVOffset: 20,
+                    soloArrowLeftHalign: "left",
+                    soloArrowLeftValign: "center",
+                    soloArrowLeftHOffset: 20,
+                    soloArrowLeftVOffset: 0,
+                    soloArrowRightHalign: "right",
+                    soloArrowRightValign: "center",
+                    soloArrowRightHOffset: 20,
+                    soloArrowRightVOffset: 0,
+                    shadow: 0,
+                    fullWidth: "on",
+                    fullScreen: "off",
+                    spinner: "spinner4",
+                    stopLoop: "off",
+                    stopAfterLoops: -1,
+                    stopAtSlide: -1,
+                    shuffle: "off",
+                    autoHeight: "off",
+                    forceFullWidth: "on",
+                    hideTimerBar: "on",
+                    hideThumbsOnMobile: "on",
+                    hideNavDelayOnMobile: 1500,
+                    hideBulletsOnMobile: "on",
+                    hideArrowsOnMobile: "on",
+                    hideThumbsUnderResolution: 0,
+                    hideSliderAtLimit: 0,
+                    hideCaptionAtLimit: 0,
+                    hideAllCaptionAtLilmit: 0,
+                    startWithSlide: 0,
+                });
+        </script>
 
 					<!-- Script for Team Carousel -->
 						<script type="text/javascript">
