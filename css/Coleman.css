@@ -22,25 +22,35 @@
     height: 75px;
 }
 
+@media (max-width: 991px) {
+        .responsive-sticky-header #logo {
+                height: 100px;
+        }
+
+        .responsive-sticky-header #logo img {
+                height: 75px;
+        }
+}
+
+@media (max-width: 991px) {
+        .responsive-sticky-header #primary-menu-trigger {
+                top: 25px;
+        }
+}
+
 @media(min-width: 991px){
 	#logo {
-    margin-right: 10px;
-    margin-left: 45px;
+    clear: both;
 	}
 }
 
-#logo img {
+/*#logo img {
     height: 70px;
     margin: 15px 0;
     padding-top: 2px;
 		padding-bottom: 2px;
-}
+}*/
 
-@media(min-width: 991px){
-	#header .container {
-	    position: absolute;
-	}
-}
 
 /*.sticky-responsive-menu #header-wrap {
    position: absolute;
