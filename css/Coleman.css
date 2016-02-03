@@ -537,6 +537,10 @@ section#services {
 	background-color: #3c948b !important;
 }
 
+.services-heading{
+	color: #fff !important;
+}
+
 .portfolio-desc h3 a:hover {
     color: #444 !important;
 }
