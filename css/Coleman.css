@@ -265,6 +265,11 @@ section#team .oc-item { box-sizing: border-box; }
     font-size: 23px;
 }
 
+.oc-item-team{
+	padding-bottom: 85px !important;
+}
+
+
 .team-content{
 	font-size: 16px;
 }
@@ -277,18 +282,6 @@ section#team .oc-item { box-sizing: border-box; }
 .owl-theme .owl-controls .owl-nav .owl-next {
    left: auto;
    right: -18px;
-}
-
-@media (max-width: 480px) {
-
-	.team-title h4{
-	    font-size: 19px;
-	}
-
-	.team-content{
-		font-size: 17px;
-	}
-
 }
 
 .owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
@@ -574,6 +567,14 @@ section#gallery {
 	color: #fff !important;
 }
 
+.portfolio-medium {
+    box-sizing: border-box;
+    padding: .6em;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin: 0 12px 12px 0;
+}
 
 /** SERVICES OVERRIDES */
 section#services {
