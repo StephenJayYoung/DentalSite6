@@ -511,6 +511,10 @@ section#gallery {
 	color: #fff !important;
 }
 
+.gallery-heading{
+	style=color: #fff !important;
+}
+
 .portfolio-medium {
     box-sizing: border-box;
     padding: .6em;
