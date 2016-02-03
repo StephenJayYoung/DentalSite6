@@ -204,15 +204,6 @@ body{
 	display: none;
 }
 
-#calls-to-action .button {
-	margin: 0 auto;
-	text-align: center;
-	background-color: #df6c4f;
-	color: #ffffff;
-	margin: 5px 5px 15px 19px !important;
-	font-size: 15px;
-}
-
 }
 
 #calls-to-action {
@@ -222,16 +213,16 @@ body{
 	color: #313131 !important;
 }
 
-#calls-to-action .heading-block {
-	margin-bottom: 15px;
-}
-
 #calls-to-action .heading-block > span:not(.before-heading) {
 	font-size: 1.25em;
 	line-height: 1;
 	margin 0;
 	color: #313131 !important;
 	font-family: "Lato", sans-serif;
+}
+
+#calls-to-action .heading-block {
+	margin-bottom: 15px;
 }
 
 #calls-to-action .heading-block h2 {
@@ -257,7 +248,9 @@ body{
 	margin: 0 auto;
 	text-align: center;
 	background-color: #df6c4f !important;
+	color: #ffffff;
 	font-size: 13px;
+	margin: 5px 5px 15px 19px !important;
 }
 
 #calls-to-action .button:hover{
@@ -575,7 +568,6 @@ section#services {
 	font-weight: 400;
 }
 
-
 /** TOUR OVERRIDES */
 section#tour {
 	margin-top: 0;
@@ -655,7 +647,6 @@ max-width: 100px;
 	vertical-align: middle;
 }
 
-
 label.error {
 	margin-top: 5px;
 	color: #E42C3E;
@@ -734,7 +725,6 @@ address {
 	}
 }
 
-
 /*MODAL OVERRIDES*/
 .modal-body{
 	font-size: 15px;
@@ -810,12 +800,6 @@ address {
     position: relative;
     color: #ffffff;
 }
-
-/*#footer.dark, .dark #footer {
-    background-color: #6DBDD6;
-    color: #CCC;
-}*/
-
 
 /*STYLE FOR POPUP MODAL*/
 table {
