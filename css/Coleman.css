@@ -14,11 +14,19 @@
     background-color: #3c948b;
     border: .5px solid black;
     color: #FFF !important;
+    padding-left: 0px !important;
 }
 
 #logo {
     margin-right: 10px;
     height: 75px;
+}
+
+@media(min-width: 991px){
+	#logo {
+    margin-right: 10px;
+    margin-left: 45px;
+	}
 }
 
 #logo img {
