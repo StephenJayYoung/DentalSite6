@@ -554,6 +554,14 @@ section#services {
 	padding-top: 50px;
 }
 
+.forms-background {
+	background-color: #444 !important;
+}
+
+.forms-header{
+	color: #fff !important;
+}
+
 @media (min-width: 991px) {
 	#forms .col-lg-4 {
 	    width: 31%;
